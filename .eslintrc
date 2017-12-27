@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "amd": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "indent": [2, 2],
+    "new-cap": 0,
+    "comma-dangle": 0,
+    "func-names": 0,
+    "import/extensions": [1, "never"],
+    "no-var": 1,
+    "space-before-function-paren": [1, "always"],
+    "vars-on-top": 0,
+    "no-param-reassign": 0,
+    "react/jsx-uses-vars": 0,
+    "strict": 0
+  },
+  "plugins": ["react", "import"]
+}
