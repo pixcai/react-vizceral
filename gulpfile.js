@@ -22,8 +22,18 @@ gulp.task('build:js', () => {
         libraryTarget: 'umd'
       },
       externals: {
-        react: 'React',
-        'prop-types': 'PropTypes'
+        react: {
+          root: 'React',
+          commonjs2: 'react',
+          commonjs: 'react',
+          amd: 'react'
+        },
+        'prop-types': {
+          root: 'PropTypes',
+          commonjs2: 'prop-types',
+          commonjs: 'prop-types',
+          amd: 'prop-types'
+        }
       }
     }))
     .pipe(rename({
