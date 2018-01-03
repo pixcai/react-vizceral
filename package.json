@@ -1,6 +1,6 @@
 {
   "name": "react-vizceral",
-  "version": "4.5.3",
+  "version": "4.5.4",
   "description": "A React wrapper around the vizceral component to make integrating into React 16.0.0 apps easier",
   "main": "./dist/vizceral.js",
   "scripts": {

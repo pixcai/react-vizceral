@@ -33,7 +33,8 @@ gulp.task('build:js', () => {
           commonjs2: 'prop-types',
           commonjs: 'prop-types',
           amd: 'prop-types'
-        }
+        },
+        vizceral: 'vizceral'
       }
     }))
     .pipe(rename({

@@ -80,7 +80,7 @@ class Vizceral extends React.Component {
         view || Vizceral.defaultProps.view,
         objectToHighlight
       )
-      this.vizceral.updateDate(traffic)
+      this.vizceral.updateData(traffic)
       this.vizceral.animate(0)
       this.vizceral.updateBoundingRectCache()
     }, 0)
